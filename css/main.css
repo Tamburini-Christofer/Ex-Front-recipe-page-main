@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #F3E5D8;
+    background-color:#F3E5D8;
     font-size: 12px;
     font-family: "Outfit", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -18,8 +18,8 @@ p{
 
 img{
     max-width: 90%;
-    border-radius: 20px;
-    margin: 20px;
+    border-radius: 10px;
+    margin: 24px 20px 0px 24px;
 }
 
 .flex{
@@ -31,7 +31,7 @@ img{
 
 h1{
     font-size: 26px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     font-family: "Young Serif", serif, Arial, Helvetica, sans-serif;
 }
 
@@ -48,7 +48,7 @@ h3{
 /*Hr*/
 
 hr{
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 10px 0px;
 }
 
 .col hr, 
@@ -61,20 +61,19 @@ hr{
 
 .contenitore_principale{
     width: 500px;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 100px auto;
     background-color: white;
     border-radius: 20px;;
 }
 
 .contenitore{
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 .contenitore_lista{
     padding: 20px 30px;
     margin: 10px 10%;
-    background-color: #ebc6d6;
+    background-color: #f7d6e4;
 }
 
 /*Liste*/
@@ -104,10 +103,50 @@ ol li::marker{
     color: #81442F;
 }
 
-
 .col2:last-child{
     margin-bottom: 15px;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:380px){
+    img{
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .contenitore_principale {
+    width: 0x;
+    margin: 0;
+    border-radius: 0px;
+    }
+
+    .contenitore {
+    width: 75%;
+    }
+
+    .contenitore_lista{
+        width: 55%;
+    }
+
+    .flex {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    li{
+        margin-left: 16px;
+    }
+}
+
+
+
+
 
 
 
