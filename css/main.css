@@ -1,3 +1,5 @@
+/*Generali*/
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,24 @@ body{
     font-size: 12px;
     font-family: "Outfit", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+p{
+    margin: 10px 0;
+}
+
+img{
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+/*Titoli*/
+
 h1{
     font-size: 26px;
     margin-bottom: 20px;
@@ -25,9 +45,19 @@ h3{
     color:#622E44 ;
 }
 
+/*Hr*/
+
 hr{
     margin: 20px 0px 0px 0px;
 }
+
+.col hr, 
+.col2 hr{
+    margin: 10px -20px;
+    padding: 0px;
+}
+
+/*Contenitore*/
 
 .contenitore_principale{
     width: 500px;
@@ -43,9 +73,11 @@ hr{
 
 .contenitore_lista{
     padding: 20px 30px;
-    margin: 20px 10%;
+    margin: 10px 10%;
     background-color: #ebc6d6;
 }
+
+/*Liste*/
 
 li{
     padding:5px;
@@ -53,16 +85,16 @@ li{
     margin-top: 5px;
 }
 
-img{
-    max-width: 90%;
-    border-radius: 20px;
-    margin: 20px;
+ul li::marker,
+ol li::marker{
+    color: #81442F;
 }
 
-.flex{
-    display: flex;
-    
+.contenitore_lista ul li::marker{
+    color: #622E44;
 }
+
+/*Colonne*/
 
 .col{
     width: 50%;
@@ -72,14 +104,11 @@ img{
     color: #81442F;
 }
 
-.col hr, 
-.col2 hr{
-    margin: 10px 0;
-}
 
 .col2:last-child{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
+
 
 
 
