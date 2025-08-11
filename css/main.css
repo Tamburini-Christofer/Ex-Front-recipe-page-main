@@ -15,9 +15,22 @@ h1{
     font-family: "Young Serif", serif, Arial, Helvetica, sans-serif;
 }
 
-#contenitore_principale{
+h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #81442F;
+}
+
+h3{
+    color:#622E44 ;
+}
+
+hr{
+    margin: 20px 0px 0px 0px;
+}
+
+.contenitore_principale{
     width: 500px;
-    height: 2000px;
     margin: 0 auto;
     margin-top: 100px;
     background-color: white;
@@ -28,10 +41,45 @@ h1{
     padding: 10px 20px;
 }
 
+.contenitore_lista{
+    padding: 20px 30px;
+    margin: 20px 10%;
+    background-color: #ebc6d6;
+}
+
+li{
+    padding:5px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
 img{
     max-width: 90%;
     border-radius: 20px;
     margin: 20px;
 }
+
+.flex{
+    display: flex;
+    
+}
+
+.col{
+    width: 50%;
+}
+
+.col2 span{
+    color: #81442F;
+}
+
+.col hr, 
+.col2 hr{
+    margin: 10px 0;
+}
+
+.col2:last-child{
+    margin-bottom: 30px;
+}
+
 
 
