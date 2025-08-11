@@ -72,7 +72,8 @@ hr{
 
 .contenitore_lista{
     padding: 20px 30px;
-    margin: 10px 10%;
+    border-radius: 10px;
+    margin: 20px;
     background-color: #f7d6e4;
 }
 
@@ -132,6 +133,7 @@ ol li::marker{
 
     .contenitore_lista{
         width: 55%;
+        margin: 10px 10%;
     }
 
     .flex {
