@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3E5D8;
+    font-size: 12px;
+    font-family: "Outfit", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: "Young Serif", serif, Arial, Helvetica, sans-serif;
+}
+
+#contenitore_principale{
+    width: 500px;
+    height: 2000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;;
+}
+
+.contenitore{
+    padding: 10px 20px;
+}
+
+img{
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
